@@ -4,21 +4,39 @@ ul, li, menu {
     list-style: none;
 }
 
-.flex {
-    display: flex;
-}
-
 .header-menu {
     column-gap: 15px;
-    margin: 0;
-    padding: 0;
 }
 
 .page-header {
-    background-color: aquamarine;
-    padding: 30px 0;
+    background-color: #2c3e50;
 }
-.
+
+.hero-avatar > .hero-avatar-img {
+    width: 50%;
+}
+
+main .hero {
+    background-color: #19bc9c;
+}
+
+.hero-star::after {
+    content: '';
+    height: 3px;
+    display: block;
+    background-color: white;
+    width: 100px;
+}
+
+.hero-star::before {
+    content: '';
+    height: 3px;
+    display: block;
+    background-color: white;
+    width: 100px;
+}
+
+
 
 
 
@@ -41,20 +59,24 @@ ul, li, menu {
 
 /* responsive */
 
-/* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {  }
 
-/* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {  }
+@media (min-width: 576px) { 
 
-/* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {  }
 
-/* // X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  }
+}
 
-/* // XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {  }
+/*
+@media (min-width: 768px) { ... }
+
+
+@media (min-width: 992px) { ... }
+
+
+@media (min-width: 1200px) { ... }
+
+
+@media (min-width: 1400px) { ... }
+*/
 
 
 
@@ -63,6 +85,9 @@ ul, li, menu {
 
 .debug [class^=col] {
     border: 1px solid black;
-    height: 100px;
+}
+
+.debug [class^=container] {
+    border: 1px solid red;
 }
 
