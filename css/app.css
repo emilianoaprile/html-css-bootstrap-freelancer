@@ -36,6 +36,25 @@ main .hero {
     width: 100px;
 }
 
+.portfolio-star::after {
+    content: '';
+    height: 3px;
+    display: block;
+    background-color: black;
+    width: 100px;
+}
+
+.portfolio-star::before {
+    content: '';
+    height: 3px;
+    display: block;
+    background-color: black;
+    width: 100px;
+}
+
+.portfolio-card > img {
+    width: 100%;
+}
 
 
 
