@@ -13,21 +13,21 @@
 
 <body class="debu">
 
-    <header class="page-header pt-3 pb-3">
+    <header class="page-header pt-4 pb-4 text-white">
         <nav>
-            <div class="container text-white">
-                <div class="row justify-content-between">
-                    <div class="col-auto d-flex">
-                        logo
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-auto">
+                        <p class="header-logo text-uppercase h3 fw-bold m-0">start bootstrap</p>
                     </div>
-                    <div class="col-auto d-flex">
-                        <ul class="header-menu p-0 m-0 d-none d-sm-flex gap-3">
-                            <li class="header-menu-items">Menu</li>
-                            <li class="header-menu-items">Menu</li>
-                            <li class="header-menu-items">Menu</li>
+                    <div class="col-auto">
+                        <ul class="header-menu p-0 m-0 d-none d-sm-flex gap-3 text-uppercase fw-semibold ">
+                            <li class="header-menu-items"><a href="#">portfolio</a></li>
+                            <li class="header-menu-items"><a href="#">about</a></li>
+                            <li class="header-menu-items"><a href="#">contact</a></li>
                         </ul>
     
-                        <div class="hamburger-menu d-flex align-items-center d-sm-none">
+                        <div class="hamburger-menu align-items-center d-sm-none">
                             <i class="fa-solid fa-bars"></i>
                         </div>
     
@@ -42,7 +42,7 @@
         <section class="hero pt-5 pb-5">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-md-auto">  <!--usare col-12-->
+                    <div class="col-12">
                         <figure class="hero-avatar">
                             <img class="hero-avatar-img d-block mx-auto" src="./img/avatar.svg" alt="">
                         </figure>
@@ -64,7 +64,7 @@
         <section class="section-portfolio pt-5 pb-5">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-md-auto"> <!--col-12 oppure col-auto-->
+                    <div class="col-12">
                         <h2 class="portfolio-title text-uppercase fs-2 text-center">portfolio</h2>
                     </div>
 
@@ -168,12 +168,12 @@
 
     <footer class="page-footer pt-4 text-center">
         <div class="container">
-            <div class="row">
+            <div class="row gy-4">
                 <div class="col-sm-4">
                     <div class="footer-card text-white">
                         <h5 class="card-footer-title text-uppercase">location</h5>
-                        <p class="footer-card-text m-0">2215 John Daniel Drive Clark, MO</p>
-                        <p class="footer-card-text m-0">54243</p>
+                        <p class="footer-card-text m-0 fw-light">2215 John Daniel Drive Clark, MO</p>
+                        <p class="footer-card-text m-0 fw-light">54243</p>
                     </div>
                     
                 </div>
@@ -192,19 +192,20 @@
                 <div class="col-sm-4">
                     <div class="footer-card text-white">
                         <h5 class="card-footer-title text-uppercase">about freelancer</h5>
-                        <p class="footer-card-text m-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis rem blanditiis laborum, quibusdam esse voluptates!</p>
+                        <p class="footer-card-text m-0 fw-light">Freelance is a free to use. open source
+                            Bootstran theme created by <span><a class="start-bootstrap-link" href="#">Start Bootstrap</a></span>.</p>
 
                     </div>
                     
                 </div>
             </div>
+        </div>
 
-            <div class="footer-copyright row">
-                <div class="col-12">
-                    <p class="footer-copyright-text text-white">copyright your website 2019</p>
-                </div>
-
+        <div class="footer-copyright py-4 mt-5">
+            <div class="col-12">
+                <p class="footer-copyright-text text-white m-0 fw-lighter">copyright <span class="copyright-icon"><i class="fa-regular fa-copyright"></i></span> your website 2019</p>
             </div>
+
         </div>
 
     </footer>
