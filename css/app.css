@@ -1,11 +1,8 @@
 
-ul, li, menu {
+ul, li, menu, a {
     text-decoration: none;
     list-style: none;
-}
-
-.header-menu {
-    column-gap: 15px;
+    color: currentColor;
 }
 
 .page-header {
@@ -16,11 +13,12 @@ ul, li, menu {
     width: 50%;
 }
 
-main .hero {
+main .hero,
+main .section-about {
     background-color: #19bc9c;
 }
 
-.hero-star::after {
+.white-star::after {
     content: '';
     height: 3px;
     display: block;
@@ -28,7 +26,7 @@ main .hero {
     width: 100px;
 }
 
-.hero-star::before {
+.white-star::before {
     content: '';
     height: 3px;
     display: block;
@@ -36,7 +34,7 @@ main .hero {
     width: 100px;
 }
 
-.portfolio-star::after {
+.black-star::after {
     content: '';
     height: 3px;
     display: block;
@@ -44,7 +42,7 @@ main .hero {
     width: 100px;
 }
 
-.portfolio-star::before {
+.black-star::before {
     content: '';
     height: 3px;
     display: block;
@@ -56,7 +54,18 @@ main .hero {
     width: 100%;
 }
 
+.page-form .user-information,
+.page-form .textarea-message {
+    width: 100%;
+}
 
+.form-button {
+    background-color: #19bc9c;
+}
+
+.page-footer {
+    background-color: #3b546d;
+}
 
 
 
