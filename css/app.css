@@ -14,7 +14,7 @@ ul, li, menu, a {
 }
 
 .hero-avatar > .hero-avatar-img {
-    width: 30%;
+    max-width: 200px;
 }
 
 main .hero,

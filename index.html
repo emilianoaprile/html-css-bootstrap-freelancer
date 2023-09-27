@@ -54,7 +54,7 @@
                         </div>
 
                         <p class="hero-avatar-skills mt-2 text-white text-uppercase text-center">graphic artist - web
-                            designer - illustrator</p>
+                            designer - illustrator</p> <!--utilizzare una lista ul con d-flex invece che p-->
                     </div>
                 </div>
             </div>
@@ -73,31 +73,31 @@
                     </div>
                 </div>
 
-                <div class="row">
+                <div class="row gy-4">
                     <div class="col-sm-6 col-lg-4">
-                        <figure class="portfolio-card m-0 pb-4">
+                        <figure class="portfolio-card m-0">
                             <img class="portfolio-card-img rounded-3" src="./img/cabin.png" alt="">
                         </figure>
                     </div>
                     <div class="col-sm-6 col-lg-4">
-                        <figure class="portfolio-card m-0 pb-4">
+                        <figure class="portfolio-card m-0">
                             <img class="portfolio-card-img rounded-3" src="./img/cake.png" alt="">
                         </figure>
                     </div>
                     <div class="col-sm-6 col-lg-4">
-                        <figure class="portfolio-card m-0 pb-4">
+                        <figure class="portfolio-card m-0">
                             <img class="portfolio-card-img rounded-3" src="./img/circus.png" alt="">
                         </figure>
                     </div>
 
                     <div class="col-sm-6 col-lg-4">
-                        <figure class="portfolio-card m-0 pb-4">
+                        <figure class="portfolio-card m-0">
                             <img class="portfolio-card-img rounded-3" src="./img/game.png" alt="">
                         </figure>
                     </div>
 
                     <div class="col-sm-6 col-lg-4">
-                        <figure class="portfolio-card m-0 pb-4">
+                        <figure class="portfolio-card m-0">
                             <img class="portfolio-card-img rounded-3" src="./img/safe.png" alt="">
                         </figure>
                     </div>
@@ -119,11 +119,11 @@
                     <i class="fa-solid fa-star text-white"></i>
                 </div>
 
-                <div class="row gy-3">
-                    <div class="col-sm-6">
+                <div class="row gy-3 justify-content-center">
+                    <div class="col-10 col-md-5"> <!-- usare una col-10 col-md-5, AVEVO MESSO col-sm-6 -->
                         <p class="section-about-text text-white m-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores possimus cupiditate voluptatibus adipisci ducimus, ipsam fuga. Aliquid delectus exercitationem nostrum unde eveniet, odio sed voluptatem nulla numquam accusantium repellat expedita</p>
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-10 col-md-5"> <!--usare una col-10 col-md-5 -->
                         <p class="section-about-text text-white m-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores possimus cupiditate voluptatibus adipisci ducimus, ipsam fuga. Aliquid delectus exercitationem nostrum unde eveniet, odio sed voluptatem nulla numquam accusantium repellat expedita</p>
                     </div>
                 </div>
@@ -144,21 +144,21 @@
                     <i class="fa-solid fa-star"></i>
                 </div>
 
-                <form class="page-form row ps-5 pe-5">
-                    <div class="col-12">
+                <form class="page-form row justify-content-center">
+                    <div class="col-10">
                         <input class="user-information border-0 border-bottom pb-3" type="text" placeholder="Name">
                     </div>
-                    <div class="col-12">
+                    <div class="col-10">
                         <input class="user-information border-0 border-bottom pb-3 pt-2" type="text" placeholder="Email Address">
                     </div>
-                    <div class="col-12">
+                    <div class="col-10">
                         <input class="user-information border-0 border-bottom pb-3 pt-2" type="text" placeholder="Phone Number">
                     </div>
-                    <div class="col-12">
+                    <div class="col-10">
                         <textarea class="border-0 border-bottom textarea-message pt-4" name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
                     </div>
 
-                    <div class="form-submit mt-2">
+                    <div class="form-submit col-10 mt-2">
                         <input class="border-0 lh-lg ps-3 pe-3 rounded-3 text-white form-button" type="submit" value="Send">
                     </div>
                 </form>
@@ -166,7 +166,7 @@
         </section>
     </main>
 
-    <footer class="page-footer pt-4 text-center">
+    <footer class="page-footer pt-5 text-center">
         <div class="container">
             <div class="row gy-4">
                 <div class="col-sm-4">
